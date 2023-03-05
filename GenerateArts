@@ -1,11 +1,1 @@
-local player = game.Players.LocalPlayer
-
-local White = {
-    ""
-}
-
-
-if not table.find(White,player.Name) then
-    player:Kick("Script outdated check new in our dsc .gg/J78tMuHtxu")
-    return;
-end
+local player = game.Players.LocalPlayer:Kick("Script outdated check new in our dsc .gg/J78tMuHtxu")
